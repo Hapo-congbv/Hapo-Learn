@@ -32,7 +32,6 @@ body {
   max-width: 100%;
 }
 
-
 /* ======header==== */
 header {
   max-width: 100%;
@@ -99,11 +98,12 @@ header {
 }
 
 .hapo-slide h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: normal;
   width: 513px;
   height: 51px;
-  margin: 200px 0 0 80px;
+  margin-top: 200px;
+  margin-left: 80px;
   color: #11114E;
   letter-spacing: -0.05em;
 }
@@ -244,5 +244,3 @@ header {
   background-color: #2774df;
   border-radius: 50%;
 }
-
-
