@@ -24,8 +24,14 @@
 }
 
 body {
-    font-family: 'Open Sans';
+  font-family: 'Open Sans';
 }
+
+.container {
+  margin: auto;
+  max-width: 100%;
+}
+
 
 /* ======header==== */
 header {
@@ -93,12 +99,11 @@ header {
 }
 
 .hapo-slide h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: normal;
   width: 513px;
   height: 51px;
-  margin-top: 200px;
-  margin-left: 80px;
+  margin: 200px 0 0 80px;
   color: #11114E;
   letter-spacing: -0.05em;
 }
@@ -131,7 +136,7 @@ header {
   display: block;
   width: 377px;
   height: 70px;
-  margin-top: 30px;
+  margin: 30px 0 0 80px;
   background-color: #B2D235;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
