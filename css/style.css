@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'UTM';
-  src: url(../fonts/UTM\ BryantLG.ttf);
+  src: url(../fonts/UTM-BryantLG.ttf);
   font-style: normal;
   font-weight: normal;
 }
@@ -241,3 +241,4 @@ header {
   background-color: #2774df;
   border-radius: 50%;
 }
+
