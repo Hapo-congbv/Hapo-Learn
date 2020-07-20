@@ -26,3 +26,218 @@
 body {
     font-family: 'Open Sans';
 }
+
+/* ======header==== */
+header {
+  max-width: 100%;
+}
+
+.hapo-wrap-nav {
+  height: 150px;
+  max-width: 100%;
+  display: flex;
+}
+
+.hapo-wrap-nav .hapo-logo img {
+  width: 340px;
+  height: 70px;
+  margin: 34px 0 60px 34px;
+}
+
+.hapo-logo {
+  margin-right: 120px;
+}
+
+.hapo-nav-item {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 60px;
+}
+
+.hapo-nav-item li {
+  float: right;
+  margin-left: 30px;
+}
+
+.hapo-nav-item li a {
+  text-decoration: none; 
+  font: normal bold 14px/19px Open Sans;
+  color: #505353;
+  text-transform: uppercase;
+  display: block;
+  border-radius: 17px;
+  padding: 10px;
+}
+
+.hapo-nav-item li a:hover {
+  background-color: #B2D235;
+  color: #FEFFFF;
+}
+
+
+.hapo-wrap-slide {
+  max-width: 100%;
+  height: 655px;
+  background-image: url("../images/hapo-learn-banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.hapo-slide-dect {
+  font-family: UTM;
+  display: flex;
+  flex-direction: column;
+}
+
+.hapo-slide h2 {
+  font-size: 50px;
+  font-weight: normal;
+  width: 513px;
+  height: 51px;
+  margin-top: 200px;
+  margin-left: 80px;
+  color: #11114E;
+  letter-spacing: -0.05em;
+}
+
+.hapo-slide b {
+  width: 513px;
+  height: 61px;
+  margin-left: 80px;
+  font: normal bold 50px/61px UTM;
+  color: #11114E;
+}
+
+.hapo-slide p {
+  font: normal normal 20px/25px UTM;
+  letter-spacing: -0.05em;
+  color: #505353;
+  margin-left: 80px;
+  width: 250px;
+  height: 61px;
+}
+
+.hapo-slide-button {
+  width: 377px;
+  height: 70px;
+  margin-left: 15px 0 0 80px;
+}
+
+.hapo-slide-button a {
+  text-decoration: none;
+  display: block;
+  width: 377px;
+  height: 70px;
+  margin-top: 30px;
+  background-color: #B2D235;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  text-align: center;
+  font: normal bold  30px/70px Open Sans;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.hapo-wrap-message {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  position: absolute;
+  float: right;
+  right: 2%;
+  margin-top: -34px;
+  border-radius: 23px;
+  width: 360px;
+  height: 170px;
+  background: #FFFFFF;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+.hapo-message h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 63px;
+  height: 16px;
+  margin-left: 15%;
+  font: normal 600 12px/16px Open Sans;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #7F7F7F;
+}
+
+.hapo-message-content {
+  display: flex;
+}
+
+.hapo-message-content img {
+  margin: 15px;
+}
+
+.hapo-message-content .hapo-mess-content {
+  background: #F1F0F0;
+  border-radius: 15px;
+  width: 256px;
+  height: 53px;
+}
+
+.hapo-mess-content p {
+  margin: 10px;
+  width: 208px;
+  height: 34px;
+  font: normal 600 12px/17px UTM;
+  letter-spacing: -0.02em;
+  color: #505353;
+}
+
+.hapo-message-button {
+  display: flex;
+  width: 276px;
+  height: 37px;
+  margin: 15px 0 0 46px;
+}
+
+.hapo-message-button a {
+  text-decoration: none;
+  display: block;
+  width: 276px;
+  height: 37px;
+  text-align: center;
+  line-height: 37px;
+  margin: auto;
+  background: #3184f7;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.hapo-message h4 {
+
+  font: normal 600 12px/16px UTM;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #B3B3B3;
+}
+
+.hapo-wrap-space {
+  position: relative;
+  width: 100%;
+  height: 161px;
+  background-image: linear-gradient(0deg, rgb(182, 178, 178), #ffffff);
+}
+
+.hapo-message-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  right: 2%;
+  top: 0;
+  background-color: #2774df;
+  border-radius: 50%;
+}
+
+
