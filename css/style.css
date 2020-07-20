@@ -123,8 +123,7 @@ header {
 .hapo-slide-button {
   width: 377px;
   height: 70px;
-  margin-left: 80px;
-  margin-top: 15px;
+  margin-left: 15px 0 0 80px;
 }
 
 .hapo-slide-button a {
