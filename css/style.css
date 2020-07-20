@@ -245,11 +245,7 @@ header {
   border-radius: 50%;
 }
 
-
 /* ================================footer==================== */
-
-/* footer */
-
 footer {
   font-family: UTM;
   background: #505353;
@@ -330,7 +326,6 @@ footer .hapo-footer-content {
 }
 
 /* footerCopyRight */
-
 .hapo-copyright {
   position: absolute;
   top: 270px;
@@ -345,4 +340,3 @@ footer .hapo-footer-content {
   letter-spacing: -0.05em;
   color: #FFFFFF;
 }
-
