@@ -29,12 +29,12 @@ body {
 
 /* ======header==== */
 header {
-  max-width: 1366px;
+  max-width: 100%;
 }
 
 .hapo-wrap-nav {
   height: 150px;
-  max-width: 1366px;
+  max-width: 100%;
   display: flex;
 }
 
@@ -126,7 +126,6 @@ header {
   margin-left: 80px;
   margin-top: 15px;
 }
-
 
 .hapo-slide-button a {
   text-decoration: none;
