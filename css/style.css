@@ -154,7 +154,6 @@ header {
   color: #FFFFFF;
 }
 
-
 /* ===== */
 .block-messenger {
   font: 600 12px Open Sans;
@@ -379,7 +378,7 @@ footer .hapo-footer-content {
   color: #FFFFFF;
 }
 
-.courses-header{
+.courses-header {
   height: 170px;
   background-color: #E5E5E5;
 }
@@ -432,7 +431,7 @@ footer .hapo-footer-content {
 }
 
 .hapo-body-courses-content {
-  width: 310px;
+  width: 95%;
   height: 80px;
   font: normal bold 14px/20px UTM;
   text-align: center;
