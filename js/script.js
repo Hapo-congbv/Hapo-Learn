@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    $('.hapo-message-icon').click(function () {
-        $('.hapo-wrap-message').toggle();
+    $('.messenger').click(function () {
+        $('.toggle-class').toggle();
     });
     $('.close').click(function () {
-        $('.hapo-wrap-message').hide();
+        $('.toggle-class').hide();
     });
 });
