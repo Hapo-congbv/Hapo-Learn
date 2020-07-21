@@ -387,10 +387,8 @@ footer .hapo-footer-content {
 .hapo-wrap-courses {
   margin: auto;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
-  
+
 .hapo-wrap-courses-row {
   width: 100%;
   position: relative;
