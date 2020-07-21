@@ -390,8 +390,7 @@ footer .hapo-footer-content {
   display: flex;
   flex-direction: column;
 }
-
-
+  
 .hapo-wrap-courses-row {
   width: 100%;
   position: relative;
@@ -489,16 +488,14 @@ footer .hapo-footer-content {
 }
 
 .all-courses {
-  font: normal bold 40px/40px UTM;
+  font: normal bold 40px/49px UTM;
   color: #b2d235;
   letter-spacing: -0.02em;
   height: 0;
 }
 
 .hapo-courses-other a {
-  text-decoration: none;
   margin-top: 60px;
-  font: normal bold 40px/40px UTM;
   color: #b2d235;
   letter-spacing: -0.02em;
 }
