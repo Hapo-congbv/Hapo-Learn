@@ -553,7 +553,7 @@ footer .hapo-footer-content {
 }
 
 .hapo-wrap-learn {
-  padding: 134px 0px;
+  padding: 134px 0;
   background: url(../images/background_but.png) no-repeat;
   background-size: contain;
 }
@@ -590,20 +590,25 @@ footer .hapo-footer-content {
   color: #b2d235;
 }
 
-.hapo-content-statistic {
-  display: flex;
-  flex-direction: column;
-}
-
-.hapo-statistic-header {
+.hapo-statistic-header p {
   border-radius: 3px;
   margin: 110px auto 40px auto;
-  padding: 5px 0px;
+  padding: 5px 0;
   text-align: center;
-  border-bottom: 5px solid #b2d235;
   font: normal bold 80px/98px UTM;
   letter-spacing: -0.02em;
   color: #11114e;
+}
+
+.hapo-statistic-header p:after {
+  background-color: #b2d235;
+  content: "";
+  display: block;
+  height: 4px;
+  margin: 11px auto 30px;
+  position: relative;
+  width: 20%;
+  border-radius: 3px;
 }
 
 .hapo-statistic-body {
@@ -616,7 +621,8 @@ footer .hapo-footer-content {
   width: 33%;
 }
 
-.hapo-statistic-name, .hapo-statistic-data {
+.hapo-statistic-name,
+.hapo-statistic-data {
   text-align: center;
   font: normal bold 60px/74px UTM;
   letter-spacing: -0.05em;
