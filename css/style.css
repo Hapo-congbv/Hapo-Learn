@@ -609,7 +609,6 @@ footer .hapo-footer-content {
   height: 164px;
   margin: 40px 14px;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
