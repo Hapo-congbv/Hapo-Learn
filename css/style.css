@@ -552,6 +552,138 @@ footer .hapo-footer-content {
   margin-right: 15px;
 }
 
+.hapo-wrap-feedback {
+  height: 600px;
+}
+
+.hapo-wrap-feedback .hapo-title-feedback {
+  font: bold 80px UTM;
+  color: #11114E;
+  text-align: center;
+}
+
+.hapo-title-feedback h4{
+  margin-top: 110px;
+}
+
+.hapo-title-feedback h4:after {
+  background-color: #b2d235;
+  content: "";
+  display: block;
+  height: 7px;
+  margin: 11px auto 30px;
+  position: relative;
+  width: 25%;
+  border-radius: 3px;
+}
+
+.hapo-wrap-feedback .hapo-title-feedback p {
+  width: 705px;
+  font: 25px UTM;
+  text-align: center;
+  color: #505353;
+  margin-left: 367px;
+}
+
+.hapo-element-cmt {
+  border: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hapo-slide-cmt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  position: relative;
+}
+
+.hapo-element-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.hapo-element-cmt {
+  width: 585px;
+  height: 164px;
+  margin: 40px 14px;
+  display: flex;
+  align-items: center;
+}
+
+.hapo-block-cmt {
+  margin-left: 20px;
+}
+
+.hapo-block-cmt p {
+  width: 500px;
+  height: 100px;
+  font: normal normal 18px/26px UTM;
+  letter-spacing: -0.05em;
+  color: #000000;
+  text-align: -webkit-left;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.hapo-block-cmt p::-webkit-scrollbar {
+  width: 10px;
+}
+
+.hapo-block-cmt p::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.hapo-block-cmt p::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 5px;
+}
+
+.hapo-block-account {
+  display: flex;
+  flex-direction: row;
+  margin-left: 38px;
+}
+
+.hapo-block-account .hapo-block-infor {
+  margin-left: 10px;
+}
+
+.hapo-block-account .txt-name {
+  font: bold 20px UTM;
+  color: #11114E;
+}
+
+.hapo-block-account .txt-lang {
+  font: bold 16px UTM;
+  color: #505353;
+}
+
+.hapo-block-account i {
+  font-size: 14px;
+  color: #F2C54F;
+}
+
+.left {
+  width: 30px;
+  height: 30px;
+  margin-left: -90%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.right {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 90%;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
 .hapo-wrap-learn {
   height: 500px;
   background: url("../images/background_but.png") no-repeat;
