@@ -37,7 +37,8 @@ body {
 
 .container {
   margin: auto;
-  max-width: 1366px;
+  /* max-width: 1366px; */
+  width: 100%;
 }
 
 /* ======header==== */
@@ -288,7 +289,6 @@ span.close {
   border-radius: 50%;
 }
 
-/* ================================footer==================== */
 footer {
   font-family: UTM;
   background: #505353;
@@ -297,18 +297,23 @@ footer {
   position: relative;
 }
 
-footer .hapo-footer-content {
+.hapo-footer-content {
+  width: 100%;
   position: absolute;
 }
 
-footer .hapo-footer-logo img {
-  width: 291.6px;
-  height: 60px;
-  margin: 46px 0 0 132px;
+.hapo-footer-logo {
+  width: 33%;
 }
 
-footer .hapo-footer-content p {
-  margin-left: 198px;
+.hapo-footer-logo img {
+  width: 291.6px;
+  height: 60px;
+  margin: 46px 0 0 80px;
+}
+
+.hapo-footer-logo p {
+  margin-left: 150px;
   width: 249px;
   height: 50px;
   font: normal normal 20px/25px UTM;
@@ -316,31 +321,42 @@ footer .hapo-footer-content p {
   color: #FFFFFF;
 }
 
-footer .hapo-footer-content {
+.hapo-footer-content {
   display: flex;
+  width: 100%;
 }
 
-.hapo-nav-footer .hapo-footer {
+.hapo-footer-menu {
+  width: 15%;
+}
+
+.hapo-nav-footer ul {
   margin: 30px;
   padding: 20px;
   font-size: 30px;
   list-style-type: none;
 }
 
-.hapo-footer > ul {
+.hapo-footer-menu > ul {
   margin: 70px 0 0 80px;
   list-style-type: none;
 }
 
-.hapo-footer > ul > li {
+.hapo-footer-menu > ul > li {
   margin-top: 15px;
 }
 
-.hapo-footer li a {
+.hapo-footer-menu li a {
   text-decoration: none;
   font: normal bold 20px/25px UTM;
   letter-spacing: -0.05em;
   color: #FFFFFF;
+}
+
+.hapo-footer-contact {
+  display: flex;
+  align-items: center;
+  width: 40%;
 }
 
 .hapo-nav-footer-icon {
@@ -357,7 +373,7 @@ footer .hapo-footer-content {
   align-items: center;
   width: 60px;
   height: 60px;
-  margin: 100px auto auto 30px;
+  margin: 50px auto auto 30px;
   background-color: #FFFFFF;
   border-radius: 50%;
 }
@@ -377,10 +393,12 @@ footer .hapo-footer-content {
 }
 
 .hapo-copyright p {
-  margin: 12px auto auto 540px;
+  margin: 12px auto auto auto;
+  text-align: center;
   font: normal normal 20px/18px UTM;
   letter-spacing: -0.05em;
   color: #FFFFFF;
+  -webkit-text-stroke: 0.6px #fff;
 }
 
 .courses-header {
