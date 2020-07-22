@@ -124,6 +124,10 @@ header {
   color: #11114E;
 }
 
+.hapo-slide img {
+  vertical-align: middle;
+}
+
 .hapo-slide p {
   font: normal normal 20px/25px UTM;
   letter-spacing: -0.05em;
