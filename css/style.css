@@ -628,10 +628,8 @@ footer .hapo-footer-content {
   direction: rtl;
 }
 
-
-
 .hapo-block-cmt p::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 .hapo-block-cmt p::-webkit-scrollbar-track {
