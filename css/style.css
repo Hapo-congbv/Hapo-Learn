@@ -703,13 +703,17 @@ footer .hapo-footer-content {
   justify-content: center;
 }
 
-.hapo-wrap-learn .hapo-header-learn {
+.hapo-header-learn {
   width: 705px;
   height: 158px;
   font: bold 60px UTM;
   text-align: center;
   color: #FFFFFF;
   margin-top: 124px;
+}
+
+.hapo-header-learn p {
+  -webkit-text-stroke: 3px #FFFFFF;
 }
 
 .hapo-body-learn-link {
@@ -736,6 +740,7 @@ footer .hapo-footer-content {
   font: normal bold 80px/98px UTM;
   letter-spacing: -0.02em;
   color: #11114e;
+  -webkit-text-stroke: 1px #11114e;
 }
 
 .hapo-statistic-header p:after {
@@ -757,6 +762,11 @@ footer .hapo-footer-content {
   display: flex;
   flex-direction: column;
   width: 33%;
+}
+
+.hapo-statistic-name {
+  color: #505353;
+  -webkit-text-stroke: 1px #505353;
 }
 
 .hapo-statistic-name,
