@@ -50,6 +50,7 @@ header {
   height: 150px;
   max-width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .hapo-wrap-nav .hapo-logo img {
@@ -76,13 +77,13 @@ header {
 }
 
 .hapo-nav-item li a {
-   
   font: normal bold 14px/19px Open Sans;
   color: #505353;
   text-transform: uppercase;
   display: block;
   border-radius: 17px;
   padding: 10px;
+  -webkit-text-stroke: 0.8px #505353;
 }
 
 .hapo-nav-item li a:hover {
@@ -95,8 +96,7 @@ header {
   max-width: 100%;
   height: 615px;
   background-image: url("../images/hapo-learn-banner.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
 }
 
@@ -123,6 +123,8 @@ header {
   margin-left: 80px;
   font: normal bold 50px/61px UTM;
   color: #11114E;
+  -webkit-text-stroke: 1px #11114E;
+  
 }
 
 .hapo-slide img {
