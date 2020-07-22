@@ -496,9 +496,15 @@ footer .hapo-footer-content {
 }
 
 .hapo-courses-other a {
+  font-size: 50px;
   margin-top: 60px;
-  color: #b2d235;
+  color: #90ab26;
   letter-spacing: -0.02em;
+  text-shadow: 2px 0px 1px #90ab26;
+}
+
+.hapo-courses-other img {
+  vertical-align: middle;
 }
 
 .hapo-wrap-inf {
