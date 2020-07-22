@@ -570,6 +570,7 @@ footer .hapo-footer-content {
   font: bold 80px UTM;
   color: #11114E;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .hapo-title-feedback h4{
@@ -597,13 +598,6 @@ footer .hapo-footer-content {
   text-shadow: 0.5px 0.5px #505353;
 }
 
-.hapo-element-cmt {
-  border: 0.5px solid #e2e2e2;
-  box-sizing: border-box;
-  text-align: center;
-  border-radius: 10px;
-}
-
 .hapo-slide-cmt {
   display: flex;
   flex-direction: row;
@@ -618,10 +612,13 @@ footer .hapo-footer-content {
 
 .hapo-element-cmt {
   width: 585px;
-  height: 164px;
-  margin: 40px 14px;
+  height: 190px;
+  margin: 17px 14px;
   display: flex;
   align-items: center;
+  text-align: center;
+  background: url('../images/Union.png') no-repeat;
+
 }
 
 .hapo-block-cmt {
@@ -656,7 +653,7 @@ footer .hapo-footer-content {
 .hapo-block-account {
   display: flex;
   flex-direction: row;
-  margin-left: 38px;
+  margin: -15px auto auto 38px;
 }
 
 .hapo-block-account .hapo-block-infor {
@@ -666,11 +663,13 @@ footer .hapo-footer-content {
 .hapo-block-account .txt-name {
   font: bold 20px UTM;
   color: #11114E;
+  -webkit-text-stroke: 1px #11114e;
 }
 
 .hapo-block-account .txt-lang {
   font: bold 16px UTM;
   color: #505353;
+  -webkit-text-stroke: 1px #505353;
 }
 
 .hapo-block-account i {
