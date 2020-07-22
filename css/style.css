@@ -95,6 +95,7 @@ header {
   height: 615px;
   background-image: url("../images/hapo-learn-banner.png");
   background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
 }
 
@@ -764,7 +765,7 @@ footer .hapo-footer-content {
 }
 
 .hapo-statistic-name {
-  color: #505353;
+
   -webkit-text-stroke: 1px #505353;
 }
 
