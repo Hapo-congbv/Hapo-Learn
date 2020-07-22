@@ -48,27 +48,28 @@ header {
 
 .hapo-wrap-nav {
   height: 150px;
-  max-width: 100%;
+  background-color: #FFFFFF;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .hapo-wrap-nav .hapo-logo img {
   width: 340px;
   height: 70px;
-  margin: 34px 0 60px 34px;
 }
 
 .hapo-logo {
-  margin-right: 120px;
+  padding-left: 4%;
+  height: 70px;
 }
 
 .hapo-nav-item {
   display: flex;
-  height: 150px;
   align-items: center;
-  list-style-type: none;
+  flex-wrap: wrap;
   padding-right: 60px;
+  display: block;
 }
 
 .hapo-nav-item li {
@@ -80,7 +81,6 @@ header {
   font: normal bold 14px/19px Open Sans;
   color: #505353;
   text-transform: uppercase;
-  display: block;
   border-radius: 17px;
   padding: 10px;
   -webkit-text-stroke: 0.8px #505353;
@@ -88,9 +88,9 @@ header {
 
 .hapo-nav-item li a:hover {
   background-color: #B2D235;
-  color: #FEFFFF;
+  color: #ffffff;
+  -webkit-text-stroke: 0.8px #ffffff;
 }
-
 
 .hapo-wrap-slide {
   max-width: 100%;
