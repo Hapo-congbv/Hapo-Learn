@@ -553,41 +553,35 @@ footer .hapo-footer-content {
 }
 
 .hapo-wrap-learn {
-  padding: 134px 0;
-  background: url(../images/background_but.png) no-repeat;
-  background-size: contain;
-}
-
-.hapo-content-learn {
-  width: 63%;
-  margin: auto;
-}
-
-.hapo-learn-heading {
-  width: 100%;
-  height: 158px;
-  font: normal bold 60px/74px UTM;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #ffffff;
-}
-
-.hapo-button-learn {
-  margin: auto;
-  justify-content: center;
+  height: 500px;
+  background: url("../images/background_but.png") no-repeat;
   display: flex;
+  justify-content: center;
 }
 
-.hapo-learn-link {
-  display: block;
-  width: 45%;
-  height: 50px;
+.hapo-wrap-learn .hapo-header-learn {
+  width: 705px;
+  height: 158px;
+  font: bold 60px UTM;
   text-align: center;
-  margin-top: 15px;
-  font: normal bold 30px/50px UTM;
+  color: #FFFFFF;
+  margin-top: 124px;
+}
+
+.hapo-body-learn-link {
+  display: flex;
+  justify-content: center;
+}
+
+.hapo-body-learn-link a {
+  display: block;
+  width: 377px;
+  height: 50px;
+  margin-top: 20px;
+  font: normal bold 33px/45px UTM;
   background: #ffffff;
   border-radius: 22px;
-  color: #b2d235;
+  color: #90AB26;
 }
 
 .hapo-statistic-header p {
