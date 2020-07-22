@@ -574,6 +574,7 @@ footer .hapo-footer-content {
 
 .hapo-title-feedback h4{
   margin-top: 110px;
+  text-shadow: 1px 1px 1px #11114E;
 }
 
 .hapo-title-feedback h4:after {
@@ -593,6 +594,7 @@ footer .hapo-footer-content {
   text-align: center;
   color: #505353;
   margin-left: 367px;
+  text-shadow: 0.5px 0.5px #505353;
 }
 
 .hapo-element-cmt {
