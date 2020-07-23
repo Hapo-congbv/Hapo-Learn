@@ -487,8 +487,7 @@ footer {
 }
 
 .hapo-body-courses-link a:hover {
-  color: #fff;
-  background-color: #2774DF;
+  transform:scale(1.1);
 }
 
 .courses-bgr {
