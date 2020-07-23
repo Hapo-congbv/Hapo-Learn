@@ -440,11 +440,14 @@ footer {
 }
 
 .hapo-body-courses {
+  height: auto;
   width: 86%;
   margin: auto;
   font: normal bold 12px/20px UTM;
   text-align: center;
   letter-spacing: -0.05em;
+  display: flex;
+  flex-direction: column;
 }
 
 .hapo-body-courses h2 {
@@ -454,13 +457,18 @@ footer {
   color: #b2d235;
 }
 
+.hapo-body-courses-header {
+  height: 60px;
+  width: 100%;
+}
+
 .hapo-body-courses-content {
-  width: 95%;
-  height: 80px;
   font: normal bold 14px/20px UTM;
-  text-align: center;
+  text-align: -webkit-match-parent;
   letter-spacing: -0.05em;
   color: #505353;
+  margin-top: 10px;
+  height: 90px;
 }
 
 .hapo-body-courses-link {
@@ -605,7 +613,7 @@ footer {
   height: 7px;
   margin: 11px auto 30px;
   position: relative;
-  width: 25%;
+  width: 340px;
   border-radius: 3px;
 }
 
@@ -614,7 +622,7 @@ footer {
   font: 25px UTM;
   text-align: center;
   color: #505353;
-  margin-left: 367px;
+  margin: 20px auto;
   text-shadow: 0.5px 0.5px #505353;
 }
 
