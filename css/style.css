@@ -604,14 +604,13 @@ footer {
 }
 
 .hapo-content {
-  margin-left: 100px;
-  margin-top: -100px;
+  margin-left: 8%;
   color: #ffffff;
 }
 
 .hapo-content-heading {
-  margin-bottom: 15px;
-  font: normal bold 60px/86px UTM;
+  margin: -15% 0 0 10%;
+  font: normal bold 70px/86px UTM;
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
@@ -622,7 +621,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 20px auto;
-  font: normal normal 18px/25px UTM;
+  font: normal normal 20px/25px UTM;
   letter-spacing: -0.05em;
 }
 
@@ -823,6 +822,7 @@ footer {
 }
 
 .hapo-statistic-name {
+  color: #505353;
   -webkit-text-stroke: 1px #505353;
 }
 
