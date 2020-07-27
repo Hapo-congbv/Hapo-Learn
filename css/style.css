@@ -1,8 +1,14 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  font-weight: normal;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
@@ -48,7 +54,7 @@ header {
 }
 
 .hapo-wrap-nav {
-  height: 150px;
+  height: 100px;
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -231,8 +237,9 @@ header {
   color: #505353;
   margin-left: 3%;
   text-align: left;
-  font: normal 600 12px/17px Open Sans;
+  font: normal normal 12px/17px Open Sans;
   letter-spacing: -0.02em;
+  padding: 10px;
 }
 
 .hapo-button-messager-link {
@@ -267,6 +274,7 @@ header {
   text-align: center;
   color: #B3B3B3;
   margin-top: 3.5%;
+  font-weight: normal;
 }
 
 span.close {
@@ -494,7 +502,8 @@ footer {
 
 .hapo-body-courses-content {
   font: normal bold 14px/20px UTM;
-  text-align: -webkit-match-parent;
+  text-align: center;
+  padding: 10px;
   letter-spacing: -0.05em;
   color: #505353;
   margin-top: 20px;
@@ -575,41 +584,40 @@ footer {
   vertical-align: middle;
 }
 
-.hapo-wrap-inf {
-  max-width: 100%;
-  height: 740px;
-  background: url('../images/background_inf.png');
-}
-
 .hapo-inf-content {
+  position: relative;
+  padding: 96px 0;
+  background: url("../images/background_inf.png") no-repeat;
+  background-size: cover;
+}
+
+.hapo-inf_one {
+  position: absolute;
+  top: -30%;
+}
+
+.hapo-wrap-inf-content {
   display: flex;
+  justify-content: center;
 }
 
-.hapo-inf-content .hapo-inf-content-left {
-  width: 50%;
-}
-
-.hapo-inf-content .hapo-inf-content-right {
-  width: 50%;
-}
-
-.hapo-inf-content-left .hapo-inf-images {
-  margin-top: -225px;
-}
-
-.hapo-inf-content-right img {
-  width: 100%;
-  height: auto;
-  margin-top: 150px;
+.hapo-inf_two {
+  width: 750px;
+  height: 544px;
+  right: 0;
+  top: 13.5%;
+  bottom: 0;
 }
 
 .hapo-content {
+  align-self: flex-end;
+  margin-right: 25px;
   color: #ffffff;
 }
 
 .hapo-content-heading {
-  margin-top: -15%;
-  font: normal bold 70px/86px UTM;
+  margin-bottom: 15px;
+  font: normal bold 60px/86px main-font;
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
@@ -619,8 +627,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 25px auto;
-  font: normal normal 20px/25px UTM;
+  margin: 20px auto;
+  font: 18px/25px main-font;
   letter-spacing: -0.05em;
 }
 
@@ -752,6 +760,7 @@ footer {
   background: url("../images/background_but.png");
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 
 .hapo-header-learn {
@@ -812,12 +821,14 @@ footer {
 
 .hapo-statistic-body {
   display: flex;
+  justify-content: center;
+  padding: 0 85px;
 }
 
 .hapo-statistic-count {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30%;
 }
 
 .hapo-statistic-name {
