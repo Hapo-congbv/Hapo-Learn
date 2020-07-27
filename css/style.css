@@ -89,7 +89,6 @@ header {
   text-transform: uppercase;
   border-radius: 17px;
   padding: 5px 10px;
-  -webkit-text-stroke: 0.8px #505353;
 }
 
 .hapo-nav-item li a:hover {
