@@ -441,7 +441,7 @@ footer {
 
 .courses-header {
   height: 170px;
-  background-color: #E5E5E5;
+  background-image: linear-gradient(white, #E5E5E5);
 }
 
 .hapo-wrap-courses {
@@ -617,10 +617,11 @@ footer {
 
 .hapo-content-heading {
   margin-bottom: 15px;
-  font: normal bold 60px/86px main-font;
+  font: normal bold 60px/86px UTM;
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
+  -webkit-text-stroke: 1.5px;
 }
 
 .hapo-content li {
@@ -628,7 +629,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 20px auto;
-  font: 18px/25px main-font;
+  font: 18px/25px UTM;
   letter-spacing: -0.05em;
 }
 
