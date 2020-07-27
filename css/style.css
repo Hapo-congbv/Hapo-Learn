@@ -54,7 +54,7 @@ header {
 }
 
 .hapo-wrap-nav {
-  height: 125px;
+  height: 100px;
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -503,11 +503,11 @@ footer {
 .hapo-body-courses-content {
   font: normal bold 14px/20px UTM;
   text-align: center;
+  padding: 10px;
   letter-spacing: -0.05em;
   color: #505353;
   margin-top: 20px;
   height: 90px;
-  padding: 10px;
 }
 
 .hapo-body-courses-link {
@@ -758,9 +758,9 @@ footer {
 .hapo-wrap-learn {
   height: 500px;
   background: url("../images/background_but.png");
-  background-size: cover;
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 
 .hapo-header-learn {
