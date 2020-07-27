@@ -586,30 +586,29 @@ footer {
 }
 
 .hapo-inf-content .hapo-inf-content-left {
-  width: 43%;
+  width: 50%;
 }
 
 .hapo-inf-content .hapo-inf-content-right {
   width: 50%;
 }
 
-.hapo-inf-content-left .hapo-inf-images_1 {
+.hapo-inf-content-left .hapo-inf-images {
   margin-top: -225px;
 }
 
 .hapo-inf-content-right img {
-  width: 792px;
-  height: 544px;
-  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
 }
 
 .hapo-content {
-  margin-left: 8%;
   color: #ffffff;
 }
 
 .hapo-content-heading {
-  margin: -15% 0 0 10%;
+  margin-top: -15%;
   font: normal bold 70px/86px UTM;
   text-align: center;
   letter-spacing: -0.02em;
@@ -620,7 +619,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px auto;
+  margin: 25px auto;
   font: normal normal 20px/25px UTM;
   letter-spacing: -0.05em;
 }
